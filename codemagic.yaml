@@ -6,7 +6,8 @@ workflows:
       node: latest
 
     scripts:
-      - npm install
+      - npm install -g pnpm
+      - pnpm install
       - npx expo export
 
     artifacts:
